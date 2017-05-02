@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="IntranetMessaging">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="FileUpload.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Stuff/java adv/FileUpload.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-json.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Stuff/java adv/java-json.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="IntranetMessaging"/>
+        <property name="java-output-path" value="/IntranetMessaging/build/classes"/>
+    </wb-module>
+</project-modules>
